@@ -1,0 +1,91 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav, header, section, footer{
+    padding: 20px 15px;
+}
+
+nav{
+    padding-top: 0;
+    margin-bottom: 15px;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container p{
+    margin-bottom: 15px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a, a:hover, a:active{
+    text-decoration: none;
+}
+
+nav{
+    padding-top: 0;
+    margin-bottom: 50px;
+}
+
+nav ul > li{
+    float: left;
+}
+
+nav ul a{
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+nav ul li:first-child a {
+    padding-left: 0;
+}
+
+nav ul a:hover{
+    border-bottom: 2px solid #000;
+}
+
+img{
+    width: 100%;
+}
+
+.copy-right{
+    border-top: 1px solid #ccc;
+    margin-top: 100px;
+    line-height: 40px;
+}
+
+header{background: #ccc;}
+section{background: #fff;}
+footer{background: #000;color: #fff;}
+
+
+
+.color-plate{
+    width: 100px;
+    padding: 10px 0;
+    position: fixed;
+    top: 30%;
+    left: 0;
+    background: #fff;
+    border: 1px solid #000;
+}
+
+.color-plate a{
+    display: block;
+    line-height: 30px;
+}
+
+.color-plate a:hover{
+    background: #ccc;
+}
